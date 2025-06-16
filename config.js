@@ -2,13 +2,13 @@ require('dotenv').config();
 
 global.owner = process.env.OWNER_NUMBER; 
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
+global.ownername = process.env.OWNER_NAME || "𝙰𝙸 𝙾𝙵 𝙻𝙰𝚄𝚃𝙴𝙲𝙷";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
 global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
-global.autoTyping = process.env.AUTO_TYPING === 'true'; 
-global.autoRecord = process.env.AUTO_RECORD === 'true';
+global.channelname = process.env.CHANNEL_NAME || "❦ ════ •⊰❂ AI TOOLS HUB  ❂⊱• ════ ❦";
+global.channeljid = process.env.CHANNEL_JID || "120363269950668068@newsletter";
+global.autoTyping = process.env.AUTO_TYPING === 'false'; 
+global.autoRecord = process.env.AUTO_RECORD === 'false';
 global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'true';
 global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'true';
 global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
